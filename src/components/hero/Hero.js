@@ -23,13 +23,13 @@ function Hero() {
       <section id="home" className="br-hero margin-b-50">
 
         <div className="br-text-1">PROFESSIONAL</div>
-        <div className="br-text-2">RESUME</div>
+        <div className="br-text-2">PORTFOLIO</div>
         <div className="container">
           <div className="hero-content">
             <div className="hero-item static">
               <div className="br-hero-detail">
                 <h1 className="br-hero-title title-right-overflow"><span>My Self,<br></br> <span
-                  className="name">&nbsp; Rob Oliver</span></span>
+                  className="name">&nbsp; Ali Rahbar </span></span>
                 </h1>
                 <p className="br-hero-detail">Lorem Ipsum is simply
                   dummy text of the printing industry. Lorem Ipsum has been the industry's.</p>
@@ -57,7 +57,7 @@ function Hero() {
               </div>
 
               <div className="br-hero-name">
-                <h3>I am a <br></br><span>Engineer</span></h3>
+                <h3>I am an <br></br><span>Engineer</span></h3>
               </div>
             </div>
             <div className="art"></div>
