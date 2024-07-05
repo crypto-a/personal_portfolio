@@ -51,7 +51,7 @@ function Hero() {
                   }}
                 >
                   <div className="br-card Tilt-inner" >
-                    <img src="assets/img/hero/my-img.png" alt="vasantbhai" />
+                    <img src="assets/img/hero/my-img.jpg" alt="vasantbhai" />
                   </div>
                 </Tilt>
               </div>
