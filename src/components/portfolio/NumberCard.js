@@ -27,7 +27,7 @@ function NumberCard() {
                                             maxGlare: 0.4,
                                             scale: 1.04
                                         }} data-tilt>
-                                        <h3><span className={`counter counter-value ${data.number === 37 ? "active-num" : ""}`} data-count="156">{data.number}+</span></h3>
+                                        <h3><span className={`counter counter-value ${data.number === 5 ? "active-num" : ""}`} data-count="156">{data.number}+</span></h3>
                                         <p>{data.title}</p>
                                     </Tilt>
                                 </div>

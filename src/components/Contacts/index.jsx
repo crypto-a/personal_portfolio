@@ -20,26 +20,22 @@ function Contacts() {
                    <ContactCard icon={"fa fa-envelope"}>
                    <    h3 className="title">Mail & Website</h3>
                         <p>
-                            <i className="fa fa-envelope" aria-hidden="true"></i> &nbsp; mail.example@gmail.com
+                            <i className="fa fa-envelope" aria-hidden="true"></i> &nbsp; alirahbar2005@gmail.com
                         </p>
                         <p>
-                            <i className="fa fa-globe" aria-hidden="true"></i> &nbsp; www.yourdomain.com
+                            <i className="fa fa-globe" aria-hidden="true"></i> &nbsp; www.ali-rahbar.com
                         </p>
                    </ContactCard>
                    <ContactCard icon={"fa fa-mobile"}>
                    <    h3 className="title">Contact</h3>
                         <p>
-                            <i className="fa fa-mobile" aria-hidden="true"></i> &nbsp; (+91)-9876XXXXX
-                        </p>
-                        <p>
-                            <i className="fa fa-mobile" aria-hidden="true"></i> &nbsp; (+91)-987654XXXX
+                            <i className="fa fa-mobile" aria-hidden="true"></i> &nbsp; + 1 (416) 827-3842
                         </p>
                    </ContactCard>
                    <ContactCard icon={"fa fa-map-marker"}>
-                   <    h3 className="title">Mail & Website</h3>
+                   <    h3 className="title">Address</h3>
                         <p>
-                            <i className="fa fa-map-marker" aria-hidden="true"></i> &nbsp;  Ruami Mello Moraes Filho,
-                                    987 - Salvador - MA, 40352, Brazil.
+                            <i className="fa fa-map-marker" aria-hidden="true"></i> &nbsp;  81 St Mary St, Toronto, ON M5S 1J4
                         </p>
                    </ContactCard>
                 </div>

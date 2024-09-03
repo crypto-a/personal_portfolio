@@ -6,7 +6,7 @@ import Experience from '../components/experience/Experience'
 import Service from '../components/service/Service'
 import Portfolio from '../components/portfolio/Portfolio'
 import NumberCard from '../components/portfolio/NumberCard'
-import News from '../components/news/News'
+// import News from '../components/news/News'
 import Contacts from '../components/Contacts'
 import BreandCardSlider from '../components/portfolio/BreandCardSlider'
 import Footer from '../layout/Footer'
@@ -32,9 +32,9 @@ function Dark() {
             <Service />
             <Portfolio />
             <NumberCard />
-            <News />
+            {/*<News />*/}
             <Contacts />
-            <BreandCardSlider />
+            {/*<BreandCardSlider />*/}
             <Footer />
         </div>
     )

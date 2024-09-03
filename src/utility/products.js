@@ -1,116 +1,103 @@
- export const products = [
+export const products = [
     {
-        title: "BonzaMart - Super market",
-        description : "orem Ipsum is simply dummy text of the printing and typesetting industry.It has been the industry's standard ever since the 1500s.",
-        image : "assets/img/portfolio/1.jpg",
-        date : " 1, Jan - 2023",
-        client : "Symphony",
-        Tech: "Angular, Nodejs, Ios", 
-        Type:"eCommerce",
-        categories: ['graphics','templates'],
-        url : "www.your-project-url.com",
-        link: 
-            {
-                hreflink1: "D Graphics",
-                hreflink2: "Templates"
-
-            },
-        
-    },  
-
-    {
-        title: "ShowMania - Entertainment",
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the industry's standard ever since the 1500s.",
-        image : "assets/img/portfolio/2.jpg",
-        date : " 15, Mar - 2022",
-        client : "Martin Wilson",
-        Tech: "React, Nodejs, Android", 
-        Type:"Entertainment",
-        categories: ['design'],
-        url : "www.your-project-url.com",
+        title: "My-Teaching-Assistant",
+        description : "Engineered a Full stack application using Python Flask, SQLAlchemy and React, ensuring robust and scalable service architecture. Dockerized and deployed the project on Microsoft Azure web apps, and integrated OpenAI’s beta API’s for LLM models, improving system efficiency by up to 50%.",
+        image : "assets/img/portfolio/my-ta.jpg", // Replace with actual image path
+        date : "April 2024 - Current",
+        client : "Self-initiated",
+        Tech: "Python, Flask, SQLAlchemy, React, Docker, Azure",
+        Type:"Educational Platform",
+        categories: ['design', 'development'],
+        url : "https://my-ta.ca", // Replace with actual URL
         link:
             {
-                hreflink1: "Web Design",
+                hreflink1: "Web Development",
+                hreflink2: "Full Stack"
             },
-        
-    }, 
+    },
 
     {
-        title: "WorldToday - Portal",
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the industry's standard ever since the 1500s.",
-        image : "assets/img/portfolio/3.jpg",
-        date : " 5, feb - 2022",
-        client : "Client : John Worrior",
-        Tech: "React, Nodejs, Android", 
-        Type:"News",
-        categories: ['design'],
-        url : "www.your-project-url.com",
-        link: 
-            {
-                hreflink1: "Web Design",
-
-            },
-        
-    }, 
-
-    {
-        title: "Doctory - Helth care",
-        description : "orem Ipsum is simply dummy text of the printing and typesetting industry.It has been the industry's standard ever since the 1500s.",
-        image : "assets/img/portfolio/4.jpg",
-        date : " 12, Dec - 2021",
-        client : "Client : Mariya Lorems",
-        Tech: "PHP, Mysql", 
-        Type:"Helth",
+        title: "Feed Forward Neural Network Library",
+        description : "Developed a Deep Learning library in Python with ML algorithms like Adam and SGD, supporting customizable neural network architectures. Ensured reliable execution through error-handling and extensive testing.",
+        image : "assets/img/portfolio/feedforward.jpg", // Replace with actual image path
+        date : "May 2024 - April 2024",
+        client : "Self-initiated",
+        Tech: "Python, TensorFlow, Neural Networks",
+        Type:"Library",
         categories: ['development'],
-        url : "www.your-project-url.com",
-        link: 
+        url : "https://github.com/crypto-a/FeedForwardNeuralNetwrok", // Replace with actual URL
+        link:
             {
-                hreflink1: "Development",
-                
-
+                hreflink1: "Machine Learning",
+                hreflink2: "Python Library"
             },
-        
-    }, 
-
+    },
 
     {
-        title: "ConsultMe",
-        description : "lorem Ipsum is simply dummy text of the printing and typesetting industry.It has been the industry's standard ever since the 1500s.",
-        image : "assets/img/portfolio/5.jpg",
-        date : " 23, Oct - 2021",
-        client : "Sizuka Mitsu",
-        Tech: "Android | Ios", 
-        Type:" Consultancy",
-        categories: ['design','templates'],
-        url : "www.your-project-url.com",
-        link: 
+        title: "Chessy Chess App",
+        description : "Created a Python-based chess engine and AI bot using advanced algorithms and efficient data structures.",
+        image : "assets/img/portfolio/chessy.jpg", // Replace with actual image path
+        date : "March 2024 - May 2024",
+        client : "Self-initiated",
+        Tech: "Python, AI, Data Structures",
+        Type:"Game Development",
+        categories: ['development'],
+        url : "https://github.com/Chessy-An-AI-Powered-Chess-Strategist/Chessy_CSVersion", // Replace with actual URL
+        link:
             {
-                hreflink1: " Template",
-                hreflink2: "Web Design"
-
+                hreflink1: "AI Development",
+                hreflink2: "Game Design"
             },
-        
-    }, 
+    },
 
     {
-        title: "Shoply - The big market",
-        description : "lorem Ipsum is simply dummy text of the printing and typesetting industry.It has been the industry's standard ever since the 1500s.",
-        image : "assets/img/portfolio/6.jpg",
-        date : " 8, may - 2020",
-        client : "Babu Rao",
-        Tech: "Android", 
-        Type:"eCommerce",
-        categories: ['graphics','development'],
-        url : "www.your-project-url.com",
-        link: 
+        title: "UNICEF Conflict Escalation Analysis",
+        description : "Developed a regression model with Pandas and NumPy to predict inaccuracies in AI models and presented findings to UNICEF Canada.",
+        image : "assets/img/portfolio/unicef.jpg", // Replace with actual image path
+        date : "Nov 2023 - Dec 2023",
+        client : "UNICEF Canada",
+        Tech: "Python, Pandas, NumPy",
+        Type:"Data Analysis",
+        categories: ['design', 'graphics'],
+        url : "https://github.com/crypto-a/UNICEF-Conflict-Esclation-Analysis", // Replace with actual URL
+        link:
             {
-                hreflink1: "D Graphics",
-                hreflink2: "Templates"
-
+                hreflink1: "Data Science",
+                hreflink2: "Regression Models"
             },
-        
-    }, 
+    },
 
-    
+    {
+        title: "Envlop AI",
+        description : "A smart Outlook-like mail platform that connects to your emails, categorizes and prioritizes them, and generates new emails or replies. It can also summarize emails for you, making communication more efficient.",
+        image : "assets/img/portfolio/envlop-ai.jpg", // Replace with actual image path
+        date : "Current",
+        client : "Self-initiated",
+        Tech: "Python, AI, NLP, Flask, React",
+        Type:"Productivity Tool",
+        categories: ['design', 'development', "graphics"],
+        url : "https://github.com/your-repo-link", // Replace with actual URL
+        link:
+            {
+                hreflink1: "AI Integration",
+                hreflink2: "Email Management"
+            },
+    },
+
+    {
+        title: "Calendarium",
+        description : "Calendarium is an advanced calendar synchronization tool that connects to various calendar APIs and seamlessly syncs events across platforms. This tool ensures that users never miss an event by keeping all their schedules unified and up-to-date.",
+        image : "assets/img/portfolio/calendarium.jpg", // Replace with actual image path
+        date : "Current",
+        client : "Self-initiated",
+        Tech: "Python, API Integration, Flask, React",
+        Type:"Productivity Tool",
+        categories: ['design', 'development'],
+        url : "https://github.com/your-repo-link", // Replace with actual URL
+        link:
+            {
+                hreflink1: "Calendar Sync",
+                hreflink2: "API Integration"
+            },
+    },
 ]
-

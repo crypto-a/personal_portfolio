@@ -1,19 +1,19 @@
 export const counter_card = [
     {
-        title : "Clients",
-        number : 156
-    },
-    {
         title : "Projects",
-        number : 394
+        number : 10
     },
     {
-        title : "Countries",
-        number : 37
+        title : "Technologies",
+        number : 12
+    },
+    {
+        title : "Collaborations",
+        number : 5
     },
 
     {
-        title : "Awords",
-        number : 21
+        title : "Awards",
+        number : 3
     }
 ]

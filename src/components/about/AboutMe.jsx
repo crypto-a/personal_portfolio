@@ -71,11 +71,8 @@ function AboutMe() {
                         <div className="br-about-info">
                             <ul className="m-r-30">
                                 <li><span className="title">Full Name<b>:</b></span>{about.name}</li>
-                                <li><span className="title">Age<b>:</b></span>{about.age}</li>
-                                <li><span className="title">Language<b>:</b></span>{about.language}</li>
-                                <li><span className="title">Phone No<b>:</b></span>{about.phone}</li>
                                 <li><span className="title">Email<b>:</b></span>{about.email}</li>
-                                <li><span className="title">Address<b>:</b></span><span>{about.address}</span></li>
+                                <li><span className="title">Location<b>:</b></span><span>{about.address}</span></li>
                             </ul>
                         </div>
                     </div>

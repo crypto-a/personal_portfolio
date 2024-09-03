@@ -33,7 +33,7 @@ function Hero() {
                 </h1>
                 <p className="br-hero-detail">Lorem Ipsum is simply
                   dummy text of the printing industry. Lorem Ipsum has been the industry's.</p>
-                <a onClick={(e) => handlesubmit(e)} href="/" className="br-learn-more-right">
+                <a onClick={(e) => handlesubmit(e)} href="/AliRahbar - Resume.pdf" className="br-learn-more-right">
                   <span className="text">Download CV</span>
                 </a>
               </div>

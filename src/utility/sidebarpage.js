@@ -27,10 +27,10 @@ export const sidebarpage = [
         title: "Portfolio"
     },
 
-    {
-        href: "#news",
-        title: "News"
-    },
+    // {
+    //     href: "#news",
+    //     title: "News"
+    // },
 
     {
         href: "#contact",
