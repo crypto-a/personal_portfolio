@@ -11,9 +11,6 @@ function Hero() {
       });
     }
   };
-  const handlesubmit = (e) => {
-    e.preventDefault()
-}
 
 
   return (

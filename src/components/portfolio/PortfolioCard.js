@@ -1,5 +1,4 @@
 import React from 'react'
-import FancyBox from './FancyBox'
 import "animate.css"
 import ZoomOut from './ZoomOut'
 
