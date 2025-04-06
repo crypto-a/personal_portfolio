@@ -5,64 +5,80 @@ import { useSelector } from 'react-redux';
 function Contacts() {
     const themeMode = useSelector((state) => state.image.themeMode);
 
-  return (
-    <div>
-      {/* <!-- Start Contact Section --> */}
-    <section id="contact" className="br-contact padding-tb-80 sec-bg">
-        <div className="container d-block">
-            <div className="section-title">
-                <h2>Get in <span>Touch</span></h2>
-                <span className="ligh-title">Contact</span>
-            </div>
-            <div className="row m-b-minus-30px">
-                <div className="col-lg-5 col-md-12 m-b-991-20">
-                  
-                   <ContactCard icon={"fa fa-envelope"}>
-                   <    h3 className="title">Mail & Website</h3>
-                        <p>
-                            <i className="fa fa-envelope" aria-hidden="true"></i> &nbsp; alirahbar2005@gmail.com
-                        </p>
-                        <p>
-                            <i className="fa fa-globe" aria-hidden="true"></i> &nbsp; www.ali-rahbar.com
-                        </p>
-                   </ContactCard>
-                   <ContactCard icon={"fa fa-mobile"}>
-                   <    h3 className="title">Contact</h3>
-                        <p>
-                            <i className="fa fa-mobile" aria-hidden="true"></i> &nbsp; + 1 (416) 827-3842
-                        </p>
-                   </ContactCard>
-                   <ContactCard icon={"fa fa-map-marker"}>
-                   <    h3 className="title">Address</h3>
-                        <p>
-                            <i className="fa fa-map-marker" aria-hidden="true"></i> &nbsp;  81 St Mary St, Toronto, ON M5S 1J4
-                        </p>
-                   </ContactCard>
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        alert("This feature is not available yet. Please email me at alirahbar2005 (at) gmail (dot) com.");
+    };
+
+    return (
+        <div>
+            {/* <!-- Start Contact Section --> */}
+            <section id="contact" className="br-contact padding-tb-80 sec-bg">
+                <div className="container d-block">
+                    <div className="section-title">
+                        <h2>Get in <span>Touch</span></h2>
+                        <span className="ligh-title">Contact</span>
+                    </div>
+                    <div className="row m-b-minus-30px">
+                        <div className="col-lg-5 col-md-12 m-b-991-20">
+                            <ContactCard icon={"fa fa-envelope"}>
+                                <h3 className="title">Mail & Website</h3>
+                                <p>
+                                    <i className="fa fa-envelope" aria-hidden="true"></i> &nbsp; alirahbar2005 (at) gmail (dot) com
+                                </p>
+                                <p>
+                                    <i className="fa fa-globe" aria-hidden="true"></i> &nbsp; www.ali-rahbar.com
+                                </p>
+                            </ContactCard>
+                            <ContactCard icon={"fa fa-mobile"}>
+                                <h3 className="title">Linkdein and GitHub</h3>
+                                <p>
+                                    <i className="fa fa-link" aria-hidden="true"></i> &nbsp; https://www.linkedin.com/in/rahbarali/
+                                </p>
+                                <p>
+                                    <i className="fa fa-link" aria-hidden="true"></i> &nbsp; https://github.com/crypto-a
+                                </p>
+                            </ContactCard>
+                            <ContactCard icon={"fa fa-map-marker"}>
+                                <h3 className="title">Address</h3>
+                                <p>
+                                    <i className="fa fa-map-marker" aria-hidden="true"></i> &nbsp; 81 St Mary St, Toronto, ON M5S 1J4
+                                </p>
+                            </ContactCard>
+                        </div>
+                        <div className="col-lg-7 col-md-12">
+                            <form
+                                className={themeMode === "light" ? "form-light" : ""}
+                                onSubmit={handleSubmit}
+                            >
+                                <div className="form-group">
+                                    <input type="text" className="form-control" id="fname" placeholder="Full Name"/>
+                                </div>
+                                <div className="form-group">
+                                    <input type="email" className="form-control" id="umail" placeholder="Email"/>
+                                </div>
+                                <div className="form-group">
+                                    <input type="text" className="form-control" id="phone" placeholder="Phone"/>
+                                </div>
+                                <div className="form-group">
+                  <textarea
+                      className="form-control"
+                      id="exampleFormControlTextarea1"
+                      rows="4"
+                      placeholder="Message"
+                  ></textarea>
+                                </div>
+                                <button type="submit" className="br-learn-more-right">
+                                    <span className="text">Submit</span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
                 </div>
-                <div className="col-lg-7 col-md-12" >
-                    <form className={` ${themeMode === "light" ? "form-light" : ""}`}>
-                        <div className="form-group">
-                            <input type="text" className="form-control" id="fname" placeholder="Full Name"/>
-                        </div>
-                        <div className="form-group">
-                            <input type="email" className="form-control" id="umail" placeholder="Email"/>
-                        </div>
-                        <div className="form-group">
-                            <input type="text" className="form-control" id="phone" placeholder="Phone"/>
-                        </div>
-                        <div className="form-group">
-                            <textarea className="form-control" id="exampleFormControlTextarea1" rows="4"
-                                placeholder="Message"></textarea>
-                        </div>
-                        <button  type="submit" className="br-learn-more-right"><span className="text">Submit</span></button>
-                    </form>
-                </div>
-            </div>
+            </section>
+            {/* <!-- End Contact Section --> */}
         </div>
-    </section> 
-    {/* <!-- End Contact Section --> */}
-    </div>
-  )
+    )
 }
 
 export default Contacts

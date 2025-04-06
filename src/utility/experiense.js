@@ -1,9 +1,15 @@
 export const experiense = [
     {
-        date: "May 2024 – Current",
+        date: "May 2025 – Current",
+        title: "Edgecom Energy",
+        category: "Software Developer Intern",
+        description: "> Developing and implementing software solutions for energy management systems.\n> Collaborating with cross-functional teams to enhance product features."
+    },
+    {
+        date: "May 2024 – August 2024",
         title: "University of Toronto",
         category: "Student Research Intern",
-        description: "> Implemented Generative AI tools and GPTs to enrich course content. \n> Enhanced students' learning experience through AI integration."
+        description: "> Implemented Generative AI tools and GPTs to enrich course content. > Enhanced students' learning experience through AI integration."
     },
     {
         date: "July 2023 – Sept 2023",

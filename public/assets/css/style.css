@@ -1465,7 +1465,7 @@ li.mixitup-control-active {
   color: #fff;
 }
 .br-project-box .br-detail {
-  padding-left: 30px;
+  /*padding-left: 10px;*/
 }
 .br-project-box .br-detail ul {
   margin: 0;

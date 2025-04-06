@@ -1,13 +1,13 @@
 export const about = {
-    info: "I am a computer science student at the University of Toronto with a strong foundation in software development. I am passionate about expanding my skills and using technology to solve real-world problems, striving to become the best version of myself in the process.",
+    info: "My name is Ali Rahbar. Originally from Iran, I moved to Canada with my family four years ago, determined to pursue engineering with a purpose—improving lives and shaping a better world. Through my interdisciplinary background in computer science and business, I aim to develop innovative solutions and advance into tech leadership. Each day, I challenge myself to learn, grow, and contribute, laying the groundwork for a meaningful career and a fulfilling personal life.",
     name: "Ali Rahbar",
-    age: "18 year",
+    age: "19 year",
     language: "English, Persian",
     phone: "+1 (416) 827-3842",
-    email: "alirahbar2005@gmail.com",
+    email: "alirahbar2005 (at) gmail (dot) com",
     address: "Toronto, Ontario",
-    title : "Creativity bleeds from the pen of inspiration.",
-    description : "I believe that the opportunities I've had are a result of both my efforts and the sacrifices made by those before me. This sense of gratitude drives my commitment to making a positive impact in the world through technology. My vision is to harness the power of computer science to address complex global challenges and contribute to a more equitable and sustainable future. By developing innovative solutions, I aim to uplift communities and help create opportunities for those who may not have had the same privileges, making the world a better place for everyone.",
+    title : "Leading Tomorrow’s Innovations through Tech and Business",
+    description : "I'm a second-year Computer Science and Business student at the University of Toronto, driven by the desire to make a positive impact. My goal is to harness technology's power to solve real-world problems while continuously striving to become the best version of myself—whether that's as a future father, husband, or leader. I believe in constant growth, because as the saying goes, ‘he who stops becoming better, stops being good.’",
     services: [
         {
             title: "Python",

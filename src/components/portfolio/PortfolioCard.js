@@ -23,15 +23,7 @@ function PortfolioCard({ data, selectedCategory }) {
                     <a onClick={(e) => handleSubmit(e)} href="/">Read more</a>
                 </p>
                 <div className="br-info">
-                    <div className="portfolio-img">
-                        <a data-fancybox="gallery"
-                            data-src={data.image}
-                            href={data.image}
-                            style={{ backgroundImage: `url(${data.image})` }}>
-                            <span className="overlay">+</span>
-                        </a>
-                        <FancyBox />
-                    </div>
+
                     <div className="br-detail">
                         <ul>
                             <li>Date : {data.date}</li>

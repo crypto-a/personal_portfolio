@@ -37,7 +37,7 @@ function Experience() {
                         </div>
                         <div className="col-lg-6 col-md-12 col-sm-12">
                             <div className="experiense br-ex-box">
-                                <h4>Experiense</h4>
+                                <h4>Experience</h4>
                                 <ul className="timeline">
                                     {
                                         experiense.map((data, index) => (

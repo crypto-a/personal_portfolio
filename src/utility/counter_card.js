@@ -1,11 +1,11 @@
 export const counter_card = [
     {
         title : "Projects",
-        number : 10
+        number : 15
     },
     {
         title : "Technologies",
-        number : 12
+        number : 25
     },
     {
         title : "Collaborations",

@@ -29,19 +29,20 @@ function Hero() {
             <div className="hero-item static">
               <div className="br-hero-detail">
                 <h1 className="br-hero-title title-right-overflow"><span>My Self,<br></br> <span
-                  className="name">&nbsp; Ali Rahbar </span></span>
+                    className="name">&nbsp; Ali Rahbar </span></span>
                 </h1>
                 <p className="br-hero-detail">Lorem Ipsum is simply
                   dummy text of the printing industry. Lorem Ipsum has been the industry's.</p>
-                <a onClick={(e) => handlesubmit(e)} href="/AliRahbar - Resume.pdf" className="br-learn-more-right">
-                  <span className="text">Download CV</span>
+                <a href="https://calendly.com/alirahbar2005/30min?back=1&month=2025-04" target="_blank" rel="noopener noreferrer" className="br-learn-more-right">
+                  <span className="text">Book a Meeting</span>
                 </a>
+
               </div>
               <div className="br-hero-img">
                 <Tilt
-                  className="br-card "
-                  data-tilt
-                  options={{
+                    className="br-card "
+                    data-tilt
+                    options={{
                     max: 15, perspective: 1400,
                     easing: "cubic-bezier(.03,.98,.52,.99)",
                     speed: 1200,
@@ -57,7 +58,7 @@ function Hero() {
               </div>
 
               <div className="br-hero-name">
-                <h3>I am an <br></br><span>Engineer</span></h3>
+                <h3>Engineer <br></br><span>At Heart</span></h3>
               </div>
             </div>
             <div className="art"></div>
