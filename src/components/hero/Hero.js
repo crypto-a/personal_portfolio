@@ -28,8 +28,7 @@ function Hero() {
                 <h1 className="br-hero-title title-right-overflow"><span>My Self,<br></br> <span
                     className="name">&nbsp; Ali Rahbar </span></span>
                 </h1>
-                <p className="br-hero-detail">Lorem Ipsum is simply
-                  dummy text of the printing industry. Lorem Ipsum has been the industry's.</p>
+                <p className="br-hero-detail">Building innovative software solutions with a passion for AI and development.</p>
                 <a href="https://calendly.com/alirahbar2005/30min?back=1&month=2025-04" target="_blank" rel="noopener noreferrer" className="br-learn-more-right">
                   <span className="text">Book a Meeting</span>
                 </a>
